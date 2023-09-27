@@ -3,7 +3,7 @@ package quiz_test
 import (
 	"errors"
 	"ginkgo/quiz"
-	mock_student "ginkgo/student/mock_storer"
+	"ginkgo/student/mock_storer"
 	"github.com/golang/mock/gomock"
 	"testing"
 
@@ -74,5 +74,4 @@ var _ = Describe("TestQuiz", func() {
 			Expect(actualTxt).To(Equal(""))
 		})
 	})
-
 })
